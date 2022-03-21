@@ -1,0 +1,24 @@
+{
+    "name": "opendisk/google-suggest",
+    "description": "Scrap keywords base on Google Suggest",
+    "keywords": ["Keyword Generator", "Google Suggest", "Web Scraping"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rusmadi",
+            "email": "git@rusmadi.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Opendisk\\WebScraper\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
